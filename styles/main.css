@@ -1,0 +1,13 @@
+﻿*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #fafafc;
+    --accent-color: #36d086;
+    --text-color: #000;
+    --secondary-text-color: #d5d3d8;
+}
