@@ -7,15 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace Restaurant_Management_System
 {
-    public partial class Dashboard : System.Web.UI.Page
+    public partial class CustomerRegistration : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string _email = Session.Contents["email"].ToString();
-            lblEmail.Text = _email;
+
         }
 
-        protected void Unnamed1_MenuItemClick(object sender, MenuEventArgs e)
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }

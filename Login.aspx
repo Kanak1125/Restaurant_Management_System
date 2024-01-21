@@ -2,10 +2,19 @@
 
 <!DOCTYPE html>
 
+<%-- 
+    Name: Kanak Shakya
+    Roll no: 13
+    Title: Login page for user validation using Session.
+ --%>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Login page</title>
     <link href="styles/login.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <style>
         /*.body {
             border: 1px solid red;
