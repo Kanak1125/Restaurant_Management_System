@@ -15,28 +15,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-    <style>
-        /*.body {
-            border: 1px solid red;
-            min-height: 100vh;
-        }
-        .container {
-            display: flex;
-            height: 100%;
-        }
-        .left {
-            flex-basis: 50%;
-            height: 100%;
-        }
-        .right {
-            flex-basis: 50%;
-        }
-        .bg-img-container {
-            background: url('https://images.unsplash.com/photo-1634141613544-001d33883517?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat;
-            background-size: cover;
-            height: 100%;
-        }*/
-    </style>
 </head>
 <body>
     <div class="container">

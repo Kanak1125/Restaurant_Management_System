@@ -24,13 +24,13 @@ namespace Restaurant_Management_System
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// TextBoxFirstName control.
+        /// TxtBoxFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxFirstName;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxFirstName;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -42,13 +42,13 @@ namespace Restaurant_Management_System
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// TextBoxLastName control.
+        /// TxtBoxLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxLastName;
 
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -60,22 +60,22 @@ namespace Restaurant_Management_System
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
-        /// TextBoxCalendar control.
+        /// Calendar1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar TextBoxCalendar;
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// TextBox3 control.
+        /// TxtBoxAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxAddress;
 
         /// <summary>
         /// RequiredFieldValidator4 control.
@@ -87,13 +87,13 @@ namespace Restaurant_Management_System
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
 
         /// <summary>
-        /// TextBoxEmail control.
+        /// TxtBoxEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxEmail;
+        protected global::System.Web.UI.WebControls.TextBox TxtBoxEmail;
 
         /// <summary>
         /// RegularExpressionValidator1 control.
@@ -105,22 +105,22 @@ namespace Restaurant_Management_System
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
         /// <summary>
-        /// RadioButton1 control.
+        /// RadioButtonMale control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButtonMale;
 
         /// <summary>
-        /// RadioButton2 control.
+        /// RadioButtonFemale control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButtonFemale;
 
         /// <summary>
         /// ValidationSummary1 control.
