@@ -70,8 +70,10 @@
     <Content Include="assets\images\the-whispering-fork-high-resolution-logo-transparent.png" />
     <Content Include="CustomerRegistration.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="styles\customerRegistration.css" />
     <Content Include="styles\login.css" />
     <Content Include="styles\main.css" />
+    <Content Include="styles\userForms.css" />
     <Content Include="TakeAwaySalesPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login.aspx" />

@@ -32,7 +32,7 @@
                     <asp:TextBox ID="txtBoxPassword" runat="server" TextMode="Password" CssClass="w-100 input-fields text-inputs"></asp:TextBox><br />
                     
                     <asp:CheckBox ID="CheckBox1" runat="server" /> Remember me<br />
-                    <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" CssClass="w-100 input-fields login-btn"/><p class="text-center">Don't have an account? <a href="#">Sign Up</a></p>
+                    <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" CssClass="w-100 input-fields user-form-btn login-btn"/><p class="text-center">Don't have an account? <a href="#">Sign Up</a></p>
                 </div>
             </form>
         </section>
