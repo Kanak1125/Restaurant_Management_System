@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Restaurant_Management_System
 {
-    public partial class TakeAwaySalesPage : System.Web.UI.Page
+    public partial class DineInSalesPage : System.Web.UI.Page
     {
         List<Item> allItems = new List<Item>();
         List<Item> filteredItems = new List<Item>();
@@ -37,7 +37,8 @@ namespace Restaurant_Management_System
         {
             // gridViewItems...
             itemsPanel.Controls.Clear();
-            foreach( Item item in filteredItems ) {
+            foreach (Item item in filteredItems)
+            {
                 itemsPanel.Controls.Add(new Label()
                 {
                     Text = item.name
@@ -52,21 +53,21 @@ namespace Restaurant_Management_System
 
         protected void TxtBoxSearch_TextChanged(object sender, EventArgs e)
         {
-            string text = txtBoxSearch.Text.ToString();
-            filteredItems.Clear();
-            foreach(Item item in allItems)
-            {
-                if (item.name.ToLower().Contains(text))
+                string text = TxtBoxSearch.Text.ToString();
+                filteredItems.Clear();
+                foreach (Item item in allItems)
                 {
-                    filteredItems.Add(item);
+                    if (item.name.ToLower().Contains(text.ToLower()))
+                    {
+                        filteredItems.Add(item);
+                    }
                 }
-            }
-            LoadItemToDataGrid();
+                LoadItemToDataGrid();
         }
 
         protected void GridViewOrders_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            // logic here...
         }
     }
 }

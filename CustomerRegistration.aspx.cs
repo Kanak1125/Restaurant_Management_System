@@ -2,8 +2,8 @@
 //using System.Collections.Generic;
 //using System.Linq;
 //using System.Web;
-//using System.Web.UI;
-//using System.Web.UI.WebControls;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace Restaurant_Management_System
 {
@@ -33,6 +33,17 @@ namespace Restaurant_Management_System
 
                 Response.Redirect("Dashboard.aspx");
             }
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Calendar1.Visible = true;
+        }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            TxtBoxDOB.Text = Calendar1.SelectedDate.ToString("dd-MM-yyyy");
+            Calendar1.Visible = false;
         }
     }
 }

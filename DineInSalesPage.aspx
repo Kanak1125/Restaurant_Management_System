@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TakeAwaySalesPage.aspx.cs" Inherits="Restaurant_Management_System.TakeAwaySalesPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DineInSalesPage.aspx.cs" Inherits="Restaurant_Management_System.DineInSalesPage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>DineIn Sales</title>
     <style type="text/css">
         .auto-style1 {}
     </style>
@@ -15,18 +15,18 @@
             Customer information:<br />
             Name:
             <asp:TextBox ID="TxtBoxName" runat="server" Width="382px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxName"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RFV_Name" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxName"></asp:RequiredFieldValidator>
             <br />
             Contact Number:
             <asp:TextBox ID="TxtBoxContact" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxContact"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RFV_Contact" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxContact"></asp:RequiredFieldValidator>
             <br />
             Address:
             <asp:TextBox ID="TxtBoxAddress" runat="server" Width="356px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxAddress"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RFV_Address " runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxAddress"></asp:RequiredFieldValidator>
             <asp:Panel ID="Panel1" runat="server">
                 Search:
-                <asp:TextBox ID="txtBoxSearch" runat="server" Width="739px" OnTextChanged="TxtBoxSearch_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TxtBoxSearch" runat="server" Width="739px" OnTextChanged="TxtBoxSearch_TextChanged"></asp:TextBox>
                 <asp:Panel ID="itemsPanel" runat="server"></asp:Panel>
                 <asp:GridView ID="GridViewItems" runat="server" Height="225px" Width="823px">
                     <Columns>
@@ -62,10 +62,10 @@
         <p>
             <br />
             Grand Total <asp:TextBox ID="TxtBoxGrandTotal" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxGrandTotal"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RFV_GrandTotal" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxGrandTotal"></asp:RequiredFieldValidator>
 &nbsp;Discount
             <asp:TextBox ID="TxtBoxDiscount" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxDiscount"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RFV_Discount" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="TxtBoxDiscount"></asp:RequiredFieldValidator>
         </p>
         <p>
             Total:

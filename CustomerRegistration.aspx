@@ -24,9 +24,12 @@
                     <asp:TextBox ID="TxtBoxLastName" runat="server" CssClass="w-100 input-fields text-inputs"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RFV_LastName" runat="server" ErrorMessage="Last name is required" ControlToValidate="TxtBoxLastName" CssClass="error-txt"></asp:RequiredFieldValidator><br />
             
-                    <label for="dob" class="input-labels">Date of Birth: </label>
-                    <%--<asp:TextBox ID="TxtBoxDOB" runat="server"></asp:TextBox>--%>
-                    <asp:Calendar ID="Calendar1" runat="server" ToolTip="Enter your date" CssClass="w-100 input-fields text-inputs"></asp:Calendar><br />
+                    <label for="dob" class="input-labels">Date of Birth:<br />
+                    </label>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            
+                    <label for="dob" class="input-labels">&nbsp;</label><asp:TextBox ID="TxtBoxDOB" runat="server" CssClass="w-100 input-fields text-inputs"></asp:TextBox><asp:ImageButton ID="ImageButton1" runat="server" />
+                    <asp:Calendar ID="Calendar1" runat="server" ToolTip="Enter your date" CssClass="w-100 input-fields text-inputs calendar" OnSelectionChanged="Calendar1_SelectionChanged" Visible="False"></asp:Calendar><br />
                     <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>--%>
 
                     <label for="address" class="input-labels">Address: </label>

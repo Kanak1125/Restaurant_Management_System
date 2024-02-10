@@ -24,6 +24,16 @@
     /*margin-bottom: 20px;*/
 }
 
+/*.calendar table {
+    display: none;
+}
+
+.calendar .ajax__calendar_day {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}*/
+
 .gender-radio-container {
     /* border: 2px solid red; */
     display: inline-flex;

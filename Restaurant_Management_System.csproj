@@ -70,6 +70,7 @@
     <Content Include="assets\images\the-whispering-fork-high-resolution-logo-transparent.png" />
     <Content Include="CustomerRegistration.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="DineInSalesPage.aspx" />
     <Content Include="styles\customerRegistration.css" />
     <Content Include="styles\login.css" />
     <Content Include="styles\main.css" />
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DineInSalesPage.aspx.cs">
+      <DependentUpon>DineInSalesPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DineInSalesPage.aspx.designer.cs">
+      <DependentUpon>DineInSalesPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
