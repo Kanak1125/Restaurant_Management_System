@@ -30,11 +30,11 @@
                 <asp:Panel ID="itemsPanel" runat="server"></asp:Panel>
                 <asp:GridView ID="GridViewItems" runat="server" Height="225px" Width="823px">
                     <Columns>
-                        <asp:HyperLinkField Text="Item Id" />
+                        <%--<asp:HyperLinkField Text="Item Id" />
                         <asp:BoundField HeaderText="Item Name" />
                         <asp:BoundField HeaderText="Rate" />
                         <asp:BoundField HeaderText="Available" />
-                        <asp:ButtonField Text="Add" />
+                        <asp:ButtonField Text="Add" />--%>
                     </Columns>
                 </asp:GridView>
                 <asp:Panel ID="Panel2" runat="server" Height="103px">
@@ -76,6 +76,7 @@
             <asp:Button ID="ButtonConfirm" runat="server" Text="Confirm" />
         </p>
         <p>
+            <asp:SqlDataSource runat="server"></asp:SqlDataSource>
             &nbsp;</p>
     </form>
 </body>
